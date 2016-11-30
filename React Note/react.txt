@@ -1,0 +1,35 @@
+React 是 Facebook 内部开源出来的一个前端 UI 开发框架，广义来讲 React 不仅仅是 js 框架本身，更是一套完整的前端开发生态体系，这套体系包括：
+
+React.js
+ReactRenders: ReactDOM / ReactServer / ReactCanvas
+Flux 模式及其实现（Redux , Fluxxor）
+React 开源组件
+React Native
+GraphQl + Relay
+
+------------------------------------------------------------------------------------
+
+React.js
+React.js 是 React 的核心库，在应用中必须先加载核心库。
+
+ReactDOM.js 
+ReactDOM.js 是 React 的 DOM 渲染器，React 将核心库和渲染器分离，为了在 web 页面中显示开发的组件，需要调用 ReactDOM.render 方法， 第一个参数是 React 组件，第二个参数为 HTMLElement。
+
+JSX
+JSX 是 React 自定义的语法，最终 JSX 会转化为 JS 运行于页面当中。
+
+组件
+组件是 React 中的核心概念，页面当中的所有元素都是通过 React 组件来表达， 我们将要写的 React 代码绝大部分都是在做 React 组件的开发。
+
+VIRTUAL DOM
+React 抽象出来的虚拟 DOM 树，虚拟树是 React 高性能的关键。
+
+单向数据流：one-way reactive data flow
+React 应用的核心设计模式，数据流向自顶向下
+
+-------------------------------------------------------------------------------------------------\
+优势：
+组件的组合模式
+单向数据流的设计
+高效的性能
+分离的设计
