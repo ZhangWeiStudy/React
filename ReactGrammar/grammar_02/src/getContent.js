@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class Search extends Component {
+class InputContent extends Component {
 
     getInputText() {
 
@@ -22,6 +22,6 @@ class Search extends Component {
 }
 
 ReactDOM.render(
-    <Search />,
+    <InputContent />,
     document.getElementById("app")
 );
